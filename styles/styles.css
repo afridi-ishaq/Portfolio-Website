@@ -696,7 +696,7 @@ section {
 }
 @media screen and (max-width: 768px){
   .main-title h2 .bg-text {
-    opacity: 0.5;
+    opacity: 0.2;
     font-size: 3.5rem;
   }
 }
