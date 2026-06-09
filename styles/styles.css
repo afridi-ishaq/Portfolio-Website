@@ -641,6 +641,9 @@ section {
   padding: 0 2rem;
   
 }
+#send-btn{
+  background-color: transparent;
+}
 .main-btn .btn-icon {
   background-color: var(--color-secondary);
   display: flex;
