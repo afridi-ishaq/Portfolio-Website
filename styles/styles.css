@@ -639,7 +639,7 @@ section {
 }
 .main-btn .btn-text {
   padding: 0 2rem;
-  color: solid var(--color-secondary);
+  
 }
 .main-btn .btn-icon {
   background-color: var(--color-secondary);
