@@ -635,7 +635,7 @@ section {
   align-self: flex-start;
   align-items: center;
   overflow: hidden;
-  color: solid var(--color-secondary);
+  
 }
 .main-btn .btn-text {
   padding: 0 2rem;
