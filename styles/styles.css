@@ -635,9 +635,11 @@ section {
   align-self: flex-start;
   align-items: center;
   overflow: hidden;
+  color: black;
 }
 .main-btn .btn-text {
   padding: 0 2rem;
+  color: black;
 }
 .main-btn .btn-icon {
   background-color: var(--color-secondary);
