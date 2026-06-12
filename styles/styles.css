@@ -643,10 +643,10 @@ section {
 }
 #send-btn{
   background-color: transparent;
-  color: black;
+   color: var(--color-white);
 }
 #send-btn .btn-text{
-  color: black;
+  color: var(--color-white);
 }
 .main-btn .btn-icon {
   background-color: var(--color-secondary);
