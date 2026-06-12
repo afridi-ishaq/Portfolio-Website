@@ -698,6 +698,7 @@ section {
   transform: translate(-50%, -50%);
   font-weight: 800;
   font-size: 6.3rem;
+  opacity: 0.8;
 }
 
 .about-container .left-about p {
@@ -706,7 +707,7 @@ section {
 @media screen and (max-width: 768px){
   .main-title h2 .bg-text {
     opacity: 0.2;
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
 }
 
