@@ -205,6 +205,43 @@ section {
   margin: 1.5rem 0;
   line-height: 2rem;
 }
+.left-header .contact-icon a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: var(--color-grey-5);
+    color: var(--color-white);
+    transition: all 0.4s ease-in-out;
+    box-shadow: var(--box-shadow-1);
+}
+
+.left-header .contact-icon a i {
+    font-size: 1.3rem;
+}
+
+.left-header .contact-icon a:hover {
+    background-color: var(--color-secondary);
+    transform: translateY(-3px);
+}
+
+.left-header .contact-icon a:hover i {
+    color: var(--color-primary);
+}
+.left-header .contact-icons {
+    position: absolute;
+    left: 50px; /* instead of 20px */
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+.left-header .contact-icons .contact-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 
 /*About*/
 .about-container {
